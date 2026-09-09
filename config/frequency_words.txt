@@ -169,9 +169,9 @@
 
 /三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
 
-申奥
+/胖东来|于东来/ => 胖东来
 
-/世界杯|World\s*Cup|FIFA|国足|梅西|C罗|姆巴佩|哈兰德|内马尔|世预赛|世界杯预选赛|世界杯决赛|世界杯小组赛|世界杯出线|国际足联|球王|金球奖|\bMessi\b|\bRonaldo\b|\bMbappe\b|\bHaaland\b|\bNeymar\b/ => 世界杯
+申奥
 
 /京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
 
@@ -179,7 +179,7 @@
 
 /腾讯|鹅厂|马化腾|微信|QQ|天美|阅文集团|微众银行|\bTencent\b|\bPony Ma\b|\bWeChat\b|\bLightSpeed\b|\bWeBank\b/ => 腾讯
 
-/开源模型|大模型|LLM|Sora|DALL-E|ChatGPT|Claude|Gemini|通义千问|文心一言|豆包|DeepSeek|bOpenAIb|bAnthropicb|bSams+Altmanb|bGregs+Brockmanb|bDarios+Amodeib|bHuggings+Faceb/ => ai开源模型
+/开源模型|大模型|\bLLM\b|\bSora\b|\bDALL-E\b|\bChatGPT\b|\bGemini\b|通义千问|文心一言|豆包|MiniMax|\bGLM\b|\bHugging\s*Face\b/ => 大模型
 
 /特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
 
@@ -191,7 +191,9 @@
 /库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
 
 /\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
-/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Anthropic/Claude
+/MiniMax|海螺|minimax/ => MiniMax
+/智谱|ChatGLM|\bGLM\b/ => 智谱GLM
 
 
 # ═══════════════════════════════════════════════════════════════
